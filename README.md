@@ -20,9 +20,6 @@ A resume line says *what* happened ("cut search turns from 6 to 2"). A decision 
 | [006](decisions/006-multi-tenant-data-security-bar.md) | The multi-tenant data-security bar | Tenant isolation, consent (GPC/DNT), right-to-erasure — behind a 10-assertion gate every release passes |
 | [007](decisions/007-model-routing-shadow-first.md) | Model routing: investigate fully, ship nothing (yet) | Production is single-tier by design; the cascade is specified, the eval judge is the calibration oracle, and it ships only when the numbers say so |
 
-## Format
-
-Standard ADR shape — Status / Context / Decision / Consequences — plus a **What happened** section wherever the outcome is already known. Records are immutable once accepted; a reversal is a new record, not an edit.
 
 ---
 
